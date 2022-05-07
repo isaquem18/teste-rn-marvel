@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "teste-rn-marvel",
+    "slug": "teste-rn-marvel",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
