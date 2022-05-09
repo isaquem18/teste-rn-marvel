@@ -47,7 +47,6 @@ export const Label = styled(Title)`
 export const CharacterNameInput = styled.TextInput.attrs({
   autoCapitalize: 'none',
   autoCorrect: false,
-  autoComplete: false,
   returnKeyType: 'search',
 })`
   border: 1px solid #000000;

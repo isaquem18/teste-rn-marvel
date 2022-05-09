@@ -16,6 +16,7 @@ export const HeaderText = styled.Text`
   color: ${({ theme }) => theme.colors.light};
   font-family: ${({ theme }) => theme.fonts.roboto400};
   font-size: 16px;
+  margin-left: 130px;
 `;
 
 export const HeroFlatList = styled(FlatList).attrs({
