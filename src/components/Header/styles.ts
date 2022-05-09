@@ -44,12 +44,12 @@ export const Label = styled(Title)`
   margin-top: 12px;
 `;
 
-export const CharacterNameInput = styled.TextInput.attrs(({ theme }) => ({
+export const CharacterNameInput = styled.TextInput.attrs({
   autoCapitalize: 'none',
   autoCorrect: false,
   autoComplete: false,
   returnKeyType: 'search',
-}))`
+})`
   border: 1px solid #000000;
   border-radius: 4px;
   height: 40px;

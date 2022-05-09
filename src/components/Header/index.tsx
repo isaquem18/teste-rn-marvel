@@ -12,9 +12,14 @@ import {
 type Props = {
   searchValueInput: string;
   setSearchValueInput: Dispatch<string>;
+  handleSearch: () => void;
 };
 
-export function Header({ searchValueInput, setSearchValueInput }: Props) {
+export function Header({
+  searchValueInput,
+  setSearchValueInput,
+  handleSearch,
+}: Props) {
   return (
     <Container>
       <TitleContainer>
@@ -28,6 +33,7 @@ export function Header({ searchValueInput, setSearchValueInput }: Props) {
       <CharacterNameInput
         value={searchValueInput}
         onChangeText={setSearchValueInput}
+        onSubmitEditing={handleSearch}
       />
     </Container>
   );
